@@ -14,7 +14,7 @@ To summarise how the code works:
 2) Every pixel is scanned, brightness values are collected into a 2D array
 4) Brightness values are matched to ASCII characters in a predefined array, based on how much space they take on a display (this is done by associating each character with an interval of brightness values, the intervals are 9 in size in this code)
 5) Corresponding ASCII characters are printed into the console
-6) Line breaks are added to create rows via a counter, which triggers line breaks once reaches the value of the width of the input image
+6) Line breaks are added to create rows via a counter, which triggers line breaks once it reaches the value of the width of the input image
 <br>
 I am not a professional programmer, so it is very likely that the code is badly optimized and not written too well, but I hope you can find it helpful for your projects :). Feel free to use it for your own needs, no mentions of the author are needed or any license.
 <br>
